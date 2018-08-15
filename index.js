@@ -1,6 +1,6 @@
 // Add your functions and code here
 function destructivelyAppendKitten(name) {
-  var newArray = 
+  kittens.shift(name)
 }
 
 function destructivelyPrependKitten(name) {
