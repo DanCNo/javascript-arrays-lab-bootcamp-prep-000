@@ -21,6 +21,7 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
+  console.log(kittens)
   var newKittensArray = kittens.splice(0, 0, name)
   return newKittensArray
 }
