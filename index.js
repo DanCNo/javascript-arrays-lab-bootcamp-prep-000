@@ -24,8 +24,7 @@ var kittens = ['bob', 'joe']
 
 function prependKitten(name) {
   console.log(kittens)
-  var newKittensArray = [name]
-  newKittensArray.concat(kittens)
+  var newKittensArray = [name] + newKittensArray.concat(kittens)
   console.log(kittens)
   return newKittensArray
 }
