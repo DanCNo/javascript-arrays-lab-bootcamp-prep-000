@@ -20,21 +20,13 @@ function appendKitten(name) {
   return newKittensArray
 }
 
-//var kittens = ['bob', 'joe']
-
 function prependKitten(name) {
-  //console.log(kittens)
   var newKittensArray = [name]
   return newKittensArray.concat(kittens)
-  //console.log(kittens)
-  //return newKittensArray
 }
 
-prependKitten('pie')
-console.log(kittens)
-
 function removeLastKitten() {
-  
+  var newKittensArray = 
 }
 
 function removeFirstKitten() {
