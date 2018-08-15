@@ -23,7 +23,8 @@ var kittens = ['joe', 'pic']
 
 function prependKitten(name) {
   console.log(kittens)
-  var newKittensArray = kittens.splice(0, 0, name)
+  var newKittensArray = kittens
+  newKittensArray.splice(0, 0, name)
   return newKittensArray
 }
 
