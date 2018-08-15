@@ -20,11 +20,16 @@ function appendKitten(name) {
   return newKittensArray
 }
 
+var kittens = ['bob', 'joe']
+
 function prependKitten(name) {
+  console.log(kittens)
   var newKittensArray = kittens
   newKittensArray.splice(0, 0, name)
   return newKittensArray
 }
+
+prependKitten('pie')
 
 function removeLastKitten() {
   
