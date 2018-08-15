@@ -27,7 +27,7 @@ function prependKitten(name) {
   return newKittensArray
 }
 
-prependKitten('bob')
+console.log(prependKitten('bob'))
 
 function removeLastKitten() {
   
