@@ -25,9 +25,9 @@ function appendKitten(name) {
 function prependKitten(name) {
   //console.log(kittens)
   var newKittensArray = [name]
-  newKittensArray.concat(kittens)
+  return newKittensArray.concat(kittens)
   //console.log(kittens)
-  return newKittensArray
+  //return newKittensArray
 }
 
 prependKitten('pie')
