@@ -16,12 +16,12 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  newKittensArray = kittens.concat(name)
+  var newKittensArray = kittens.concat(name)
   return newKittensArray
 }
 
 function prependKitten(name) {
-  
+  var newKittensArray = name + kittens
 }
 
 function removeLastKitten() {
