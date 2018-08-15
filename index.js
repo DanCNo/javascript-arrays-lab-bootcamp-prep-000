@@ -1,6 +1,6 @@
 // Add your functions and code here
 function destructivelyAppendKitten(name) {
-  
+  var newArray = 
 }
 
 function destructivelyPrependKitten(name) {
